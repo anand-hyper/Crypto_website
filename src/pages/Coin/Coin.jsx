@@ -7,7 +7,6 @@ const Coin = () => {
   const {coinId} = useParams();
   const [coinData, setCoinData] = useState();
   const [historicalData,sethistoricalData] = useState();
- 
   const {currency} = useContext(CoinContext);
 
   const fetchCoinData = async() =>{
